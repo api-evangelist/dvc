@@ -1,23 +1,57 @@
 aid: dvc
 url: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/apis.yml
 name: DVC
-x-type: company
+x-type: opensource
 description: >-
-  DVC (Data Version Control) is an open-source version control system for ML projects. Tracks data, models, experiments, and pipelines on top of Git.
+  DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for
+  versioning datasets, models, pipelines, and ML experiments on top of Git. It is not
+  a network service — there is no DVC REST API.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - ML
   - MLOps
   - Versioning
+  - CLI
   - Open Source
-  - Data
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: dvc:dvc-cli
+    name: DVC CLI and Python API
+    humanURL: https://doc.dvc.org/
+    baseURL: local CLI / Python library (no network endpoint)
+    tags:
+      - CLI
+      - Python
+      - Library
+    description: >-
+      DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files
+      via pointers stored in Git and pushes payloads to remote storage backends (S3,
+      Azure, GCS, SSH, HDFS, HTTP, etc.). There is no DVC server / REST API; data is
+      stored on user-owned remotes.
+    properties:
+      - type: Documentation
+        url: https://doc.dvc.org/
+      - type: SourceCode
+        url: https://github.com/iterative/dvc
+      - type: License
+        url: https://github.com/iterative/dvc/blob/main/LICENSE
+      - type: SDK
+        title: Python (dvc.api)
+        url: https://doc.dvc.org/api-reference
 common:
   - type: Website
     url: https://dvc.org/
+  - type: Portal
+    url: https://doc.dvc.org/
+  - type: SourceCode
+    url: https://github.com/iterative/dvc
+  - type: ParentOrg
+    title: Iterative.ai
+    url: https://iterative.ai/
+  - type: VSCodeExtension
+    url: https://marketplace.visualstudio.com/items?itemName=Iterative.dvc
   - type: Plans
     url: plans/dvc-plans-pricing.yml
   - type: RateLimits
