@@ -1,7 +1,7 @@
 aid: dvc
 url: https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/apis.yml
 name: DVC
-x-type: opensource
+kind: opensource
 description: >-
   DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for
   versioning datasets, models, pipelines, and ML experiments on top of Git. It is not
