@@ -6,7 +6,7 @@ description: >-
   DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for
   versioning datasets, models, pipelines, and ML experiments on top of Git. It is not
   a network service — there is no DVC REST API.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - ML
   - MLOps
