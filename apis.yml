@@ -37,7 +37,7 @@ apis:
         url: https://github.com/iterative/dvc
       - type: License
         url: https://github.com/iterative/dvc/blob/main/LICENSE
-      - type: SDK
+      - type: SDKs
         title: Python (dvc.api)
         url: https://doc.dvc.org/api-reference
 common:
