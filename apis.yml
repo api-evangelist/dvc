@@ -41,6 +41,8 @@ apis:
         title: Python (dvc.api)
         url: https://doc.dvc.org/api-reference
 common:
+  - type: DomainSecurity
+    url: security/dvc-domain-security.yml
   - type: Website
     url: https://dvc.org/
   - type: Portal
@@ -58,6 +60,8 @@ common:
     url: rate-limits/dvc-rate-limits.yml
   - type: FinOps
     url: finops/dvc-finops.yml
+  - url: https://dvc.org/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
