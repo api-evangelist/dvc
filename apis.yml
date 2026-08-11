@@ -53,6 +53,14 @@ apis:
         title: Python (dvc.api)
         url: https://doc.dvc.org/api-reference
 common:
+  - type: IssueTracker
+    url: https://github.com/iterative/dvc/issues
+  - type: Releases
+    url: https://github.com/iterative/dvc/releases
+  - type: CodeOfConduct
+    url: https://github.com/treeverse/dvc/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/treeverse/dvc/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/dvc-domain-security.yml
   - type: Website
