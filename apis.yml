@@ -7,16 +7,21 @@ description: >-
   versioning datasets, models, pipelines, and ML experiments on top of Git. It is not
   a network service — there is no DVC REST API.
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: open-core
+  license: Apache-2.0
+  license_evidence:
+    repo: iterative/dvc
+    spdx: Apache-2.0
+    stars: 15885
+  open_source: true
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: medium
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -32,17 +37,19 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dvc.png
 tags:
-  - Machine-Learning
+  - Machine Learning
   - MLOps
   - Versioning
   - CLI
-  - Open-Source
+  - Open Source
 tags_raw:
   - ML
   - MLOps
   - Versioning
   - CLI
   - Open Source
+  - Machine-Learning
+  - Open-Source
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.23'
