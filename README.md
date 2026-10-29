@@ -1,4 +1,4 @@
-# DVC (dvc)
+# DVC
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,38 +66,100 @@
 
 DVC (Data Version Control) is an Apache 2.0 open-source CLI and Python library for versioning datasets, models, pipelines, and ML experiments on top of Git. It is not a network service — there is no DVC REST API.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/dvc/refs/heads/main/apis.yml)
+**Areas:** Machine Learning · MLOps · Versioning · CLI · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=dvc-api-evangelist&utm_content=repo)
+## DVC on APIs.io
 
-## Type
-- **x-type:** opensource
+Everything profiled for DVC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dvc/](https://apis.io/providers/dvc/)** — or go straight to one of the APIs or properties below.
 
-## APIs
-- **DVC CLI and Python API** - Apache 2.0 CLI plus `dvc.api` Python library. Stores pointers in Git, payloads in user-owned remotes (S3/Azure/GCS/SSH/HDFS/HTTP). No DVC server.
+### APIs (1)
 
-## Tags
-- ML, MLOps, Versioning, CLI, Open Source
+- [DVC CLI and Python API](https://apis.io/apis/dvc/dvc-cli/) — DVC ships as a CLI plus a Python API (`dvc.api`). It tracks data and model files via pointers stored in Git and pushes payloads to remote storage backends…
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+### Published properties
 
-## Common Properties
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dvc Domain Security](https://apis.io/security/dvc/dvc-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dvc Plans Pricing](https://apis.io/plans/dvc/dvc-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dvc Rate Limits](https://apis.io/rate-limits/dvc/dvc-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Dvc Finops](https://apis.io/finops/dvc/dvc-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://dvc.org/)
-- [Documentation](https://doc.dvc.org/)
-- [Source (Apache 2.0)](https://github.com/iterative/dvc)
-- [Iterative.ai (parent)](https://iterative.ai/)
-- [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Iterative.dvc)
-- [Plans](plans/dvc-plans-pricing.yml)
-- [RateLimits](rate-limits/dvc-rate-limits.yml)
-- [FinOps](finops/dvc-finops.yml)
+- [Blog](https://dvc.org/feed/)
 
-## Notes
-- FOSS, no commercial API surface — DVC is a CLI/library. Cost is the user's storage backend (S3 etc.), not DVC itself.
-- Maintained by Iterative.ai; their Studio product is the SaaS layer (separate offering).
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 20.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dvc/](https://apis.io/providers/dvc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DVC: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dvc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
